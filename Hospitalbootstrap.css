@@ -1,0 +1,302 @@
+.body {
+    background-color: white;
+}
+
+.head {
+    background-color: navy;
+}
+
+#header {
+    background-image: url(img/pelex.webp);
+    background-size: cover;
+    padding-bottom: 30%;
+    background-repeat: no-repeat;
+}
+
+.welcome {
+    margin-left: 3%;
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px blue;
+}
+
+.more {
+    margin-left: 3%;
+    
+}
+
+.btn1 {
+    margin-top: 3%;
+    margin-left: 20%;
+    
+}
+
+.btn2 {
+    margin-top: 3%;
+    margin-right: 20%;
+}
+
+.about {
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px blue;
+}
+
+.row {
+    float: right;
+    margin-top: 3%;
+    margin-right: 30%;
+}
+
+
+#pix {
+    float: right;
+    width: 500px;
+    margin-top: 3%;
+}
+.fun {
+    margin-left: 1%;
+}
+
+.buy {
+    margin-right: 10%;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.details {
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.buy {
+    margin-left: 5%;
+}
+
+.services {
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px blue;
+
+}
+.ensure {
+    text-align: center;
+    margin-top: 1%;
+    font-style: italic;
+}
+
+.king {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.pop {
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 30%;
+}
+
+.mine {
+    margin-right: 90%;
+}
+
+.para {
+    margin-right: 40%;
+}
+
+.pope {
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 8%;
+}
+
+.popo {
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 8%;
+}
+
+.meet {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px blue;
+}
+
+.meme {
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px blue;
+}
+
+.btnr {
+    margin-left: 5%;
+}
+
+.pox {
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px gold;
+}
+
+.btnm {
+    font-weight: bold;
+}
+
+.come {
+    width: 25%;
+    margin-left:3%;
+}
+
+.vkings {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.emma {
+    margin-right: 20%;
+}
+
+.emmy {
+    margin-right: 20%;
+}
+
+/*--------------------------------------------------------------
+# Global Footer
+--------------------------------------------------------------*/
+.footer {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-size: 14px;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  
+  .footer .footer-top {
+    padding-top: 50px;
+  }
+  
+  .footer .footer-about .logo {
+    margin-bottom: 25px;
+  }
+  
+  .footer .footer-about .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  
+  .footer .footer-about .logo span {
+    color: var(--heading-color);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: var(--heading-font);
+  }
+  
+  .footer .footer-about p {
+    font-size: 14px;
+    font-family: var(--heading-font);
+  }
+  
+  .footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+    font-size: 16px;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    margin-right: 10px;
+    transition: 0.3s;
+  }
+  
+  .footer .social-links a:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+  
+  .footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  .footer .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  .footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer .footer-links ul i {
+    padding-right: 2px;
+    font-size: 12px;
+    line-height: 0;
+  }
+  
+  .footer .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  .footer .footer-links ul a {
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  .footer .footer-links ul a:hover {
+    color: var(--accent-color);
+  }
+  
+  .footer .footer-contact p {
+    margin-bottom: 5px;
+  }
+  
+  .footer .copyright {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+  }
+  
+  .footer .copyright p {
+    margin-bottom: 0;
+  }
+  
+  .footer .credits {
+    margin-top: 6px;
+    font-size: 13px;
+  }
+  .back {
+    background-color: blue;
+    color: white;
+    margin-top: 3%;
+  }
+  .tc {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    
+  }
+  .tbc {
+    color: white;
+    margin-top: 3%;
+  }
+  
